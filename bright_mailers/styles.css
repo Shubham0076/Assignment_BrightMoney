@@ -1,0 +1,234 @@
+body {
+  padding: 30px 150px;
+  overflow-x: hidden;
+}
+
+.bg {
+  background: linear-gradient(to bottom right, #e3f1e7, #e3f1e7, #fdefc8)
+    fixed no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  border-radius: 15px;
+  border: 1px solid #dcdcdc;
+}
+
+.logo {
+  width: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #00c853;
+  border-radius: 5px;
+  background-color: #e8f5e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox svg {
+  width: 80%;
+  height: 80%;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.app-store-badge,
+.play-store-badge {
+  background-color: black;
+  border-radius: 5px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-store-badge {
+  padding: 6px;
+}
+
+.store-text {
+  font-size: 10px;
+  color: rgb(160, 160, 160);
+  letter-spacing: 0.5px;
+}
+
+.hero-heading-bold {
+  line-height: 0;
+  font-size: 65px;
+}
+
+.hero-heading-regular {
+  line-height: 0;
+  font-size: 65px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+}
+
+.feature-text {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.superscript {
+  font-size: 10px;
+}
+
+.shadow {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* 2px right, 2px down, 5px blur, semi-transparent black */
+}
+
+.mockup-container {
+  width: 90%;
+  height: 70vh;
+  background-color: #f6fef7;
+  margin-top: 50px;
+  border-radius: 70px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.why-bright-section {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.why-bright-heading {
+  font-size: 36px;
+  color: #0d2a1a;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.why-bright-heading span {
+  font-weight: bold;
+}
+
+.why-bright-hr {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.why-bright-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.why-bright-logo-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.why-bright-logo-item img {
+  width: 100px;
+}
+.why-bright-logo-item:nth-child(2) img {
+  width: 110px;
+}
+.why-bright-logo-item:nth-child(3) img {
+  width: 110px;
+}
+
+.why-bright-logo-text {
+  font-size: 14px;
+  color: #707070;
+  max-width: 150px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+
+.featured-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px; /* Adjust as needed */
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+  color: #A0A0A0; /* Match the grey color */
+  margin: 80px 0; /* Adjust as needed */
+}
+
+.featured-text {
+  font-size: 12px; /* Adjust as needed */
+  text-transform: uppercase; /* Optional, if needed */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Adjust spacing between logos */
+}
+
+.logo-text {
+  font-size: 25px; /* Adjust as needed - for text-based logos */
+  color: #A0A0A0;
+}
+
+/* Specific styles for each logo (adjust font, size, etc. as needed) */
+.bloomberg {
+  font-weight: bold;
+}
+.yahoo-finance {
+  font-style: italic;
+}
+.fortune {
+  font-weight: bold;
+}
+.cheddar {
+  /* Style to mimic cheddar logo if using text */
+}
+.cnbc {
+  font-weight: bold;
+}
